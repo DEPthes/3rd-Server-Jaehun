@@ -19,7 +19,6 @@ bin/
 
 ### IntelliJ IDEA ###
 .idea
-.idea/workspack.xml
 *.iws
 *.iml
 *.ipr
