@@ -4,43 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b4e4a8b1-bbab-411c-b399-97d007aa1e12" name="변경" comment="JPA 실습 코드">
+    <list default="true" id="b4e4a8b1-bbab-411c-b399-97d007aa1e12" name="변경" comment="MySQL 변환">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello-spring/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello-spring/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello-spring/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello-spring/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello-spring/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello-spring/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello-spring/settings.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello-spring/sql/ddl.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello-spring/src/main/java/hello/hellospring/HelloSpringApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello-spring/src/main/java/hello/hellospring/SpringConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello-spring/src/main/java/hello/hellospring/controller/HelloController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello-spring/src/main/java/hello/hellospring/controller/HomeController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello-spring/src/main/java/hello/hellospring/controller/MemberController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello-spring/src/main/java/hello/hellospring/controller/MemberForm.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello-spring/src/main/java/hello/hellospring/domain/Member.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello-spring/src/main/java/hello/hellospring/repository/JdbcMemberRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello-spring/src/main/java/hello/hellospring/repository/JdbcTemplateMemberRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello-spring/src/main/java/hello/hellospring/repository/JpaMemberRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello-spring/src/main/java/hello/hellospring/repository/MemberRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello-spring/src/main/java/hello/hellospring/repository/MemoryMemberRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello-spring/src/main/java/hello/hellospring/repository/SpringDataJpaMemberRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello-spring/src/main/java/hello/hellospring/service/MemberService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello-spring/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello-spring/src/main/resources/static/hello-static.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello-spring/src/main/resources/static/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello-spring/src/main/resources/templates/hello-templete.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello-spring/src/main/resources/templates/hello.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello-spring/src/main/resources/templates/home.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello-spring/src/main/resources/templates/members/createMemberForm.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello-spring/src/main/resources/templates/members/memberList.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello-spring/src/test/java/hello/hellospring/HelloSpringApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello-spring/src/test/java/hello/hellospring/repository/MemoryMemberRepositoryTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello-spring/src/test/java/hello/hellospring/service/MemberServiceIntegrationTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello-spring/src/test/java/hello/hellospring/service/MemberServiceTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hellojpa/JpaMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hellojpa/JpaMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -148,7 +114,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715270339986</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="MySQL 변환">
+      <option name="closed" value="true" />
+      <created>1715909513354</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1715909513354</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -165,6 +139,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="JPA 실습 코드" />
-    <option name="LAST_COMMIT_MESSAGE" value="JPA 실습 코드" />
+    <MESSAGE value="MySQL 변환" />
+    <option name="LAST_COMMIT_MESSAGE" value="MySQL 변환" />
   </component>
 </project>
