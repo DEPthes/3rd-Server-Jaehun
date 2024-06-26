@@ -1,7 +1,7 @@
 package depth.board;
 
-import depth.board.entity.Board;
-import depth.board.repository.BoardRepository;
+import depth.board.Board.Entity.Board;
+import depth.board.Board.Repository.BoardRepository;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;

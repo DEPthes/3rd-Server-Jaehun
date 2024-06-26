@@ -13,7 +13,7 @@
 </style>
 <body>
     <div class="layout">
-        <table>
+        <table border="1">
             <thead>
                 <tr>
                     <th>글 번호</th>
@@ -21,14 +21,21 @@
                 </tr>
             </thead>
             <tbody>
-                <tr th:each="board : ${list}">
-                    <td th:text="${board.id}">1</td>
+                <tr th:each="board : ${board.content}">
+                    <td th:text="${board.id}"></td>
                     <td>
                         <a th:text="${board.title}" th:href="@{/board/view(id=${board.id})}"></a>
                     </td>
                 </tr>
             </tbody>
         </table>
+        <div>
+            <button th:if="${board.hasPrevious()}" th:onclick="|location.href='?page=${board.number - 1}&size=${board.size}'|">
+                Previous </button>
+            <span th:text="${currentPage}">0</span>
+            <button th:if="${board.hasNext()}" th:onclick="|location.href='?page=${board.number + 1}&size=${board.size}'|">
+                Next </button>
+        </div>
     </div>
 </body>
 </html>

@@ -1,4 +1,4 @@
-package depth.board.entity;
+package depth.board.Board.Entity;
 
 import jakarta.persistence.*;
 import lombok.*;
@@ -14,7 +14,9 @@ public class Board {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
+    @Column
     private String title;
+    @Column
     private String content;
 
     // 게시글 수정을 위한 메서드

@@ -1,17 +1,25 @@
-package depth.board.dto;
+package depth.board.Board.DTO;
 
-import depth.board.entity.Board;
+import depth.board.Board.Entity.Board;
 import lombok.AccessLevel;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 
 @Getter
 @NoArgsConstructor(access = AccessLevel.PROTECTED)
-public class BoardRequestDTO {
+public class BoardDTO {
     private int id;
     private String title;
     private String content;
 
+    // ResponseDTO
+    public BoardDTO(Board entity) {
+        this.id = entity.getId();
+        this.title = entity.getTitle();
+        this.content = entity.getContent();
+    }
+
+    // RequestDTO
     public Board toEntity() {
         return Board.builder()
                 .title(title)

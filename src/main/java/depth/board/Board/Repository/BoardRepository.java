@@ -1,6 +1,6 @@
-package depth.board.repository;
+package depth.board.Board.Repository;
 
-import depth.board.entity.Board;
+import depth.board.Board.Entity.Board;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
